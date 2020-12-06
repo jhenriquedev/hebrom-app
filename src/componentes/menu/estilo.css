@@ -1,0 +1,22 @@
+
+.menu{
+    margin: 20px;
+}
+
+.menu a{
+    margin: 20px;
+}
+
+.menu .button-menu{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.menu i{
+    margin-right: 10px;
+}

@@ -1,0 +1,48 @@
+
+.tab-item-box{
+    min-width: 50%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.tab-box-esquerda{
+    min-width: 50%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.tab-box-esquerda .menu{
+    margin-right: 0;
+}
+
+.tab-box-esquerda .menu a{
+    margin-right: 0;
+    padding-right: 0;
+
+    color: #00A1E0;
+}
+
+.tab-box-esquerda .menu a span{
+    color: #00A1E0;
+}
+
+.tab-box-esquerda .menu a:hover{
+    color: #215CA0;
+}
+
+.tab-box-esquerda .menu a:hover span{
+     color: #215CA0;
+}
+
+.tab-item-box p, .tab-box-esquerda p{
+    color: #333D47;
+    font-size: 1.4em;
+}

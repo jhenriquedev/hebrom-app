@@ -1,0 +1,65 @@
+
+.textarea-padrao{
+    border: 1px solid #E3E7EF;
+    border-radius: 4px;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    padding-top:5px;
+
+    border-left: 1px solid rgba(80, 80, 180, 0.3);
+}
+
+.textarea-padrao span{
+    margin-right: 15px;
+    margin-left: 15px;
+    color: rgba(80, 80, 180);
+}
+
+.textarea-padrao textarea{
+    border: none;
+    background: none;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    color: #596981;
+
+    line-height: 1.5em;
+    font-size: 1.6em;
+    overflow: hidden;
+}
+
+.textarea-padrao textarea::placeholder{
+    color: #CFD7E6;
+}
+
+.textarea-padrao textarea:focus{
+    border-bottom: 1px solid #3bb19c;
+}
+
+
+
+.textarea-info{
+    width: 100%;
+    position: relative;
+    left: 39px;
+    bottom: 15px;
+}
+
+.textarea-padrao button{
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: none;
+}
+
+.textarea-padrao button span{
+    margin: 0;
+    color: rgba(80, 80, 180, 0.3);
+}
+
+.textarea-padrao .input-link{
+    width: 100%;
+    height: 40px;
+    font-size: 1.4em;
+}

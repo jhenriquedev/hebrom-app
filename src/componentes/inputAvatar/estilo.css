@@ -1,0 +1,27 @@
+.div-avatar{
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.div-avatar input{
+    display: none;
+}
+
+.input-avatar{
+    width: 64px;
+    height: 64px;
+
+    border-radius: 50%;
+}
+
+.input-avatar img{
+    width: 100%;
+    height: 100%;
+
+    border-radius: 50%;
+    
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}

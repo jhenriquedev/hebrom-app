@@ -1,0 +1,90 @@
+
+.painel{
+    border-radius: 8px;
+    width: 100%;
+    min-height: 400px;
+
+    background: #FBFBFD;
+
+    display: grid;
+    grid-template: 
+        "painel-head" 100px
+        "painel-body" 1fr
+        "painel-footer" 80px
+        /1fr
+    ;
+}
+
+.painel-head{
+    grid-area: painel-head;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.painel-head h3{
+    color: rgba(80, 80, 180);
+    width: 100%;
+    text-align: center;
+    line-height: 2.4em;
+    font-weight: lighter;
+}
+
+.painel-head span{
+    color: rgba(80, 80, 180);
+}
+
+.painel-head .loading{
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.painel-footer{
+    grid-area: painel-footer;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    bottom: 0;
+
+    background: #F7F8FB;
+
+    border-top: 1px solid #E3E7EF;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+    font-size: 1.2em;
+}
+
+.painel-footer span{
+    color: #596981;
+    font-weight: 100;
+    margin-right: 10px;
+}
+
+.painel-footer a{
+    font-weight: normal;
+    color: rgba(80, 80, 180);
+    text-decoration: underline;
+}
+
+.painel-footer a:hover{
+    color: rgba(80, 80, 180, 0.7);
+}
+
+
+.painel-body{
+    grid-area: painel-body;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}

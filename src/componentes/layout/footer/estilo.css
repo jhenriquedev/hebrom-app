@@ -1,0 +1,98 @@
+
+.rodape{
+    border-top: 1px solid #d3d9d6;
+    background: #eceff1;
+    display: grid;
+    grid-template: 
+            "rodape-top" 90px
+            "rodape-bottom" 90px
+        /1fr;
+}
+
+.rodape-top{
+    grid-area: rodape-top;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape-bottom{
+    grid-area: rodape-bottom;
+    display: grid;
+    grid-template: "rodape-direita rodape-esquerda" 180px / 1fr 1fr;
+
+    background: rgba(80, 80, 180, 0.9);
+    color: #fff;
+}
+
+.rodape-bottom h4, p{
+    color: #fff;
+    line-height: 1.6em;
+}
+
+.rodape-direita{
+    grid-area: rodape-direita;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+
+}
+.rodape-esquerda{
+    grid-area: rodape-esquerda;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.rodape-esquerda button{
+    background: #2f80e7;
+    color: #fff;
+}
+.rodape-esquerda button:hover{
+    background: rgba(80, 80, 180);
+}
+
+.texto-rodape{
+    height: 90px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto-rodape .logo img{
+    margin-top: 15px;
+    max-width: 150px;
+    max-height: 150px;
+} 
+
+.rodape-top .logo-especial{
+    height: 100%;
+}
+.rodape-top .logo-especial img{
+    max-width: 100px;
+    margin: 20px;
+}
+
+.rodape-top .logo-especial-2{
+    height: 100%;
+}
+.rodape-top .logo-especial-2 img{
+    max-width: 60px;
+    margin: 20px;
+}
+
+.rodape-top .logo-especial-3{
+    height: 100%;
+}
+.rodape-top .logo-especial-3 img{
+    max-width: 45px;
+    margin: 25px;
+}

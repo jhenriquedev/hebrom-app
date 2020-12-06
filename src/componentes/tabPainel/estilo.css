@@ -1,0 +1,47 @@
+
+
+.tab-item{
+    width: 100%;
+    height: 100%;
+
+    padding-left: 80px;
+    padding-right: 80px;
+
+    display: grid;
+
+    grid-template: 
+        "tab-item-direita tab-item-esquerda" 100%
+    /48% 48%;
+
+    grid-column-gap: 4%;
+}
+
+.tab-item-direita{
+    grid-area: tab-item-direita;
+    padding-top: 10px;
+}
+
+.tab-item-esquerda{
+    grid-area: tab-item-esquerda;
+    padding-top: 10px;
+}
+
+.tab-item-full{
+    width: 100%;
+    height: 100%;
+
+    padding-left: 80px;
+    padding-right: 80px;
+
+    overflow: auto;
+}
+
+.tab-item-full-tabela{
+    width: 100%;
+    height: 100%;
+
+    padding-left: 40px;
+    padding-right: 40px;
+
+    overflow: auto;
+}

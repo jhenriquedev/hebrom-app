@@ -1,0 +1,103 @@
+
+/*LAYOUT*/
+.topo-padrao{
+    display: grid;
+}
+
+@media screen and (min-width: 768px){
+    .topo-padrao{
+        grid-template: 
+            "topo-padrao-direita topo-padrao-centro topo-padrao-esquerda" 50px 
+            "topo-padrao-barra-inferior topo-padrao-barra-inferior topo-padrao-barra-inferior" 3px
+            /1fr 1fr 1fr;
+    }
+
+    .grid-home .topo-padrao{
+        grid-template: 
+            "topo-padrao-direita topo-padrao-centro topo-padrao-esquerda" 50px 
+            "topo-padrao-barra-inferior topo-padrao-barra-inferior topo-padrao-barra-inferior" 3px
+            /1fr 200px 200px;
+    }
+}
+
+@media screen and (height: 1024px){
+    .topo-padrao{
+        grid-template: "topo-padrao-direita topo-padrao-centro topo-padrao-esquerda" 90px /1fr 1fr 1fr;
+    }
+
+    .grid-home .topo-padrao{
+        grid-template: "topo-padrao-direita topo-padrao-centro topo-padrao-esquerda" 90px /1fr 200px 200px;
+    }
+}
+
+@media screen and (max-width:414px) and (max-height:812px){
+    .topo-padrao{
+        grid-template: "topo-padrao-direita topo-padrao-esquerda" 90px /1fr 80px;
+    }
+    .topo-padrao-centro{
+        display: none;
+    }
+}
+
+@media screen and (max-width:411px) and (min-height:823px){
+    .topo-padrao{
+        grid-template: "topo-padrao-direita topo-padrao-esquerda" 90px /1fr 80px;
+    }
+    .topo-padrao-centro{
+        display: none;
+    }
+}
+
+.topo-padrao-direita{
+    grid-area: topo-padrao-direita;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.topo-padrao-direita .logo img{
+    max-width: 100px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.topo-padrao-centro{
+    grid-area: topo-padrao-centro;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.topo-padrao-esquerda{
+    grid-area: topo-padrao-esquerda;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.topo-padrao-barra-inferior{
+    grid-area: topo-padrao-barra-inferior;
+
+    background-image: linear-gradient(to right,rgba(80,80,180, 0.7), #8A96E9, #42AECC);
+}
+/*LAYOUT FIM*/
+
+.topo-padrao .painel{
+    z-index: 1;
+    width: 240px;
+    min-height: 50px;
+    position: relative;
+    display: block;
+    top: 5px;
+    left: 82.5vw;
+}

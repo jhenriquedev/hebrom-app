@@ -1,0 +1,106 @@
+
+.div-tabela-padrao{
+    margin-top: 40px;
+    width: 100%;
+
+    border-collapse: collapse;
+    overflow-x: visible;
+    overflow-y: visible;
+}
+
+.tabela-padrao{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela-padrao thead {
+    color: #4E535A;
+    font-size: 1.4em;
+    font-weight: lighter;  
+}
+
+.tabela-padrao thead tr th span{
+    font-size: 1em;
+    color: #4E535A;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.tabela-padrao thead tr th span div input{
+    margin-right: 5px;
+}
+
+
+
+.tabela-padrao thead tr th{
+    min-width: 160px;
+
+    text-align: left;
+    padding-left: 3px;
+    padding-bottom: 15px;
+
+    border-bottom: 1px solid #CFD7E6; 
+}
+
+
+
+.tabela-padrao thead tr th div button{
+    width: auto;
+
+    text-align: left;
+    padding-left: 3px;
+    padding-bottom: 15px;
+
+    color: #4E535A;
+    font-weight: bolder;  
+
+    font-size: 1.0em;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    border: transparent;
+}
+
+.tabela-padrao thead tr th div button:hover{
+    background: transparent;
+}
+
+.tabela-padrao thead tr th div button span{
+    margin-left: 5px;
+}
+
+.tabela-padrao thead tr th button{
+    width: 200px;
+    font-size: 1.2em;
+    margin: 0;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+    background: transparent;
+    border: 1px solid rgba(80, 80, 180, 1);
+    color: rgba(80, 80, 180, 1);
+}
+
+.tabela-padrao thead tr th button:hover{
+    background: rgba(80, 80, 180, 0.1);
+}
+
+.tabela-padrao tbody{
+    font-size: 1.4em;
+    color: #4E535A;
+}
+
+.tabela-padrao tbody td{
+    border-bottom: 1px solid #E3E7EF; 
+
+    max-width: 200px;
+    
+    text-align: left;
+    line-height: 1.6em;
+
+    padding-left: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+} 

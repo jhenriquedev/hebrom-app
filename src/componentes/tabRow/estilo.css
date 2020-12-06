@@ -1,0 +1,14 @@
+
+.tab-item-row{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.tab-item-row-bottom{
+    border-bottom: 1px solid #E3E7EF;
+}

@@ -1,0 +1,13 @@
+
+.link-padrao{
+    color: #fff;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.link-padrao:hover{
+    color: #fff;
+    font-weight: bolder;
+}
+

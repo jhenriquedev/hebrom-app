@@ -1,0 +1,32 @@
+
+.tabela-item-padrao td i{
+    margin-right: 10px;
+}
+
+.tabela-item-padrao td button{
+    width: 40px;
+    padding: 0;
+    background: none;
+
+    text-align: center;
+    margin-right: 10px;
+}
+
+.tabela-item-padrao td button:hover span{
+    color: #96A3B6;
+}
+
+.tabela-item-padrao td button span{
+    font-size: 0.6em;
+}
+
+.tabela-item-padrao td a{
+    margin-left: 10px;
+    padding-right: 0;
+    font-size: 1em;
+    color: #00A1E0;
+}
+
+.tabela-item-padrao td a:hover{
+    color: #215CA0;
+}

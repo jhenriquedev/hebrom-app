@@ -1,0 +1,16 @@
+
+.tab-tools{
+    width: 300px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+
+    color: #596981;
+    font-size: 1.4em;
+
+    
+
+}

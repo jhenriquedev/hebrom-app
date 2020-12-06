@@ -1,0 +1,52 @@
+.btn-padrao{
+    width: 100%;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.btn-icone{
+    width: 50px;
+    border-radius: 50%;
+    background: none;
+    padding:0;
+    margin: 0;
+}
+
+.btn-icone:hover{
+    background: none;
+}
+
+.btn-img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding:0;
+    margin-right: 20px;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    background-size: cover;
+    background-color: transparent;
+}
+
+.btn-img:hover{
+    background-size: cover;
+    background-color: transparent;
+}
+
+.btn-tab{
+    background: none;
+    padding:0;
+    margin: 10px;
+}
+
+.btn-tab:hover{
+    background: none;
+}
+
+.btn-tab span{
+    color: rgba(80, 80, 180, 0.3)
+}
+
+.btn-tab:hover span{
+    color: #7673C0;
+}

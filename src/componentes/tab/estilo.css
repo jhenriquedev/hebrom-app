@@ -1,0 +1,52 @@
+.tab{
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template: 
+        "tab-header" 50px
+        "tab-body" 92%
+    /1fr;
+
+}
+
+.tab-header{
+    grid-area: tab-header;
+
+    border-bottom: 1px solid #d3d9d6;
+
+    padding-left: 55px;
+    padding-right: 55px;
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.tab-body{
+    grid-area: tab-body;
+}
+
+.tab-header .menu a{
+    color: #596981;
+    padding-bottom: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin: 5px;
+
+}
+
+.tab-header .menu a:hover{
+    color: rgba(80, 80, 180);
+    border-bottom: 1px solid rgba(80, 80, 180);
+}
+
+.tab-selecionado{
+    color: rgba(80, 80, 180);
+    border-bottom: 1px solid rgba(80, 80, 180);
+}

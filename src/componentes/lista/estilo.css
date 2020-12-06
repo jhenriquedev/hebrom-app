@@ -1,0 +1,102 @@
+.lista-padrao{
+    width: 100%;
+    max-height: 400px;
+
+    margin-top: 12px;
+    margin-bottom: 40px;
+}
+
+.lista-padrao-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 18px;
+}
+
+.lista-padrao-body{
+    width: 100%;
+    max-height: 350px;
+
+    overflow: auto;
+}
+
+.lista-simples{
+    margin-top: 12px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.lista-simples .lista-padrao-body{
+    min-height: 400px;
+}
+
+.lista-simples .tab-item-box p{
+    color: #596981;
+    font-weight: bold;
+}
+
+.lista-simples .item-lista-padrao{
+    width: 100%;
+    min-height: 40px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+    border-bottom: 1px solid #E3E7EF;
+}
+
+.lista-simples .item-lista-box{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.lista-simples .item-lista-box p {
+    width: 50%;  
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.lista-simples .item-lista-box p b {
+    font-weight: lighter;
+}
+
+.lista-form {
+    margin-top: -15px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.lista-form .lista-padrao-header{
+    margin: -20px;
+}
+
+.lista-form .lista-padrao-body{
+    width: 100%;
+    max-height: 300px;
+
+    overflow: auto;
+}
+
+.lista-form .tab-item-box p{
+    color: #596981;
+    font-weight: bold;
+}
+
+.lista-form .lista-padrao-header .tab-box-esquerda .menu a{
+    font-size: 1.4em;
+}

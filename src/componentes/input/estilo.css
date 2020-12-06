@@ -1,0 +1,87 @@
+
+.input-padrao{
+    border: 1px solid #E3E7EF;
+    border-radius: 4px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding-top:5px;
+}
+
+.input-padrao span{
+    margin-right: 15px;
+    margin-left: 15px;
+    color: rgba(80, 80, 180);
+}
+
+.input-padrao input{
+    border: none;
+    border-left: 1px solid rgba(80, 80, 180, 0.3);
+    background: none;
+    width: 78%;
+    height: 40px;
+    padding-left: 10px;
+    color: #596981;
+}
+
+.input-padrao input:focus{
+    border-bottom: 1px solid #3bb19c;
+}
+
+.input-padrao input::placeholder{
+    color: #CFD7E6;
+}
+
+.input-info{
+    width: 100%;
+    position: relative;
+    left: 39px;
+    bottom: 15px;
+}
+
+.input-padrao button{
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: none;
+}
+
+.input-padrao button span{
+    margin: 0;
+    color: rgba(80, 80, 180, 0.3);
+}
+
+.input-padrao .input-link{
+    width: 100%;
+    height: 40px;
+    font-size: 1.4em;
+}
+
+.input-header{
+    border: 1px solid #E3E7EF;
+    border-radius: 4px;
+    width: 100%;
+    height: 30px;
+    padding: 0;
+    padding-top:5px;
+
+}
+
+.input-header span{
+    color: rgba(80, 80, 180);
+    position: relative;
+    right: -94%;
+}
+
+.input-header input{
+    border: none;
+    border-right: 1px solid rgba(80, 80, 180, 0.3);
+    background: none;
+    width: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #596981;
+
+    margin-left: -10px;
+    font-size: 1.4em;
+}
